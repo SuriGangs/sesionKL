@@ -32,7 +32,7 @@ if (isset($_POST['register'])) {
 			$mail->SMTPAuth = true;
 
 			$mail->Username = "scarrasco@coregroupsolutions.com";
-			$mail->Password = "DreamNoise*27";
+			$mail->Password = "mypswd";
 			$mail->setFrom('scarrasco@coregroupsolutions.com', 'Registro a Knowlearn');
 			$mail->addAddress($email, $name, $apellidos);
 			$mail->Subject = 'Código para Laboratorio de Habilidades Digitales '.$name." ".$apellidos;
